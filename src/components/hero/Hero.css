@@ -1,0 +1,73 @@
+.leader-solutions {
+  background: #008adc;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  margin-top: 54px;
+  text-align: center;
+  padding: 86px 0 106px 0;
+}
+
+.leader-solutions .section-content {
+  z-index: 20;
+}
+
+.leader-solutions::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url(background-road.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 0%;
+  mix-blend-mode: luminosity;
+  opacity: 0.13;
+}
+
+.leader-solutions h1 {
+  font-family: "avenir-pro", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  margin-bottom: 22px;
+  font-weight: 500;
+}
+
+.leader-solutions h2 {
+  font-family: "avenir-pro", Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  line-height: 160%;
+  color: white;
+  max-width: 650px;
+  margin: 0 auto;
+  font-weight: 400;
+}
+
+.action-buttons {
+  margin-top: 38px;
+  margin-bottom: -30px;
+  margin-left: 10px;
+}
+
+.action-buttons a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.action-button {
+  display: inline-block;
+  cursor: pointer;
+  margin: 0 10px 10px 0;
+  height: 42px;
+  font-size: 16px;
+  line-height: 42px;
+  padding: 0 18px;
+  /* font-weight: 500; */
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 3px;
+  text-align: center;
+  min-width: 180px;
+}

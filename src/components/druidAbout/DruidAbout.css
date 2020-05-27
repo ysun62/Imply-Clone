@@ -1,0 +1,68 @@
+.three-column {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.three-column div {
+  width: 33%;
+  padding: 12px 30px 0 30px;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: left;
+}
+
+.three-column h3 {
+  font-size: 20px;
+  font-family: "avenir-pro", Helvetica, Arial, sans-serif;
+  text-align: left;
+  margin: 0 auto 14px auto;
+  font-weight: 600;
+}
+
+.three-column span {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.standard p a {
+  color: #008adc;
+  font-weight: 500;
+  cursor: pointer;
+  display: block;
+  margin-top: 32px;
+  text-decoration: none;
+}
+
+.standard p a:hover {
+  text-decoration: underline;
+}
+
+.button-text svg {
+  position: relative;
+  right: -3px;
+  transition: right 0.2s ease;
+}
+
+.button-text:hover svg {
+  right: -8px;
+}
+
+.button-text svg polygon {
+  fill: #008adc;
+}
+
+.button-text svg:hover {
+  right: -3px;
+}
+
+@media (max-width: 900px) {
+  .three-column {
+    flex-direction: column;
+  }
+  .three-column div {
+    width: 100%;
+    padding: 15px 0;
+  }
+}
