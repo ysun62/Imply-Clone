@@ -58,32 +58,137 @@ export default function Header() {
             </a>
           </div>
           <ul className="right desktop-ul">
-            <li className="product">
+            <li className="product l1">
               <a className="product-link link" href="/">
                 Product
               </a>
+              <div className="header-dropdown">
+                <a className="l2" href="/">
+                  Overview
+                </a>
+
+                <a className="l2" href="/">
+                  Imply Cloud
+                </a>
+
+                <a className="l2" href="/">
+                  Imply Pivot
+                </a>
+
+                <a className="l2" href="/">
+                  Imply Clarity
+                </a>
+
+                <a className="l2" href="/">
+                  Imply Manager
+                </a>
+
+                <a className="l2" href="/">
+                  Services
+                </a>
+              </div>
             </li>
-            <li className="druid">
+            <li className="druid l1">
               <a href="/" className="druid-link link">
                 Druid
               </a>
+              <div className="header-dropdown">
+                <a className="l2" href="/">
+                  What is Druid?
+                </a>
+
+                <a className="l2" href="/">
+                  Imply vs Druid
+                </a>
+              </div>
             </li>
-            <li className="solutions">
+            <li className="solutions l1">
               <a href="/" className="solutions-link link">
                 Solutions
               </a>
+              <div className="header-dropdown">
+                <a className="l2" href="/">
+                  Use cases
+                </a>
+
+                <a className="l2" href="/">
+                  Hadoop analytics
+                </a>
+              </div>
             </li>
-            <li className="resources">
+            <li className="resources l1">
               <a href="/" className="resources-link link">
                 Resources
               </a>
+              <div className="header-dropdown">
+                <a className="l2" href="/">
+                  Docs
+                </a>
+
+                <a className="l2" href="/">
+                  Help center
+                </a>
+
+                <a className="l2" href="/">
+                  Videos
+                </a>
+
+                <a className="l2" href="/">
+                  White Papers
+                </a>
+
+                <a className="l2" href="/">
+                  Druid University
+                </a>
+
+                <a className="l2" href="/">
+                  Druid cheat sheet
+                </a>
+
+                <a className="l2" href="/">
+                  Virtual Druid Summit
+                </a>
+              </div>
             </li>
-            <li className="company">
+            <li className="company l1">
               <a href="/" className="company-link link">
                 Company
               </a>
+              <div className="header-dropdown">
+                <a className="l2" href="/">
+                  About us
+                </a>
+
+                <a className="l2" href="/">
+                  Leadership &amp; Board
+                </a>
+
+                <a className="l2" href="/">
+                  Careers
+                </a>
+
+                <a className="l2" href="/">
+                  Press Releases
+                </a>
+
+                <a className="l2" href="/">
+                  News &amp; events
+                </a>
+
+                <a className="l2" href="/">
+                  Newsletter
+                </a>
+
+                <a className="l2" href="/">
+                  Druid Summit 2020
+                </a>
+
+                <a className="l2" href="/">
+                  Partners
+                </a>
+              </div>
             </li>
-            <li className="blog">
+            <li className="blog l1">
               <a href="/" className="blog-link link">
                 Blog
               </a>

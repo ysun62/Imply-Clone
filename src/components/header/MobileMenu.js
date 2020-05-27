@@ -9,164 +9,164 @@ export default function MobileMenu(props) {
       data-datocms-noindex=""
     >
       <div className="dropdown-container product ">
-        <a className="l1 dropdown" href="/product">
+        <a className="l1 dropdown" href="/">
           Product
         </a>
 
         <div className="header-dropdown">
-          <a className="l2" href="/product/">
+          <a className="l2" href="/">
             Overview
           </a>
 
-          <a className="l2" href="/product/imply-cloud">
+          <a className="l2" href="/">
             Imply Cloud
           </a>
 
-          <a className="l2" href="/product/imply-pivot">
+          <a className="l2" href="/">
             Imply Pivot
           </a>
 
-          <a className="l2" href="/product/imply-clarity">
+          <a className="l2" href="/">
             Imply Clarity
           </a>
 
-          <a className="l2" href="/product/imply-manager">
+          <a className="l2" href="/">
             Imply Manager
           </a>
 
-          <a className="l2" href="/services">
+          <a className="l2" href="/">
             Services
           </a>
         </div>
       </div>
 
       <div className="dropdown-container druid ">
-        <a className="l1 dropdown" href="/druid">
+        <a className="l1 dropdown" href="/">
           Druid
         </a>
 
         <div className="header-dropdown">
-          <a className="l2" href="/druid">
+          <a className="l2" href="/">
             What is Druid?
           </a>
 
-          <a className="l2" href="/imply-vs-druid">
+          <a className="l2" href="/">
             Imply vs Druid
           </a>
         </div>
       </div>
 
       <div className="dropdown-container solutions ">
-        <a className="l1 dropdown" href="/solutions">
+        <a className="l1 dropdown" href="/">
           Solutions
         </a>
 
         <div className="header-dropdown">
-          <a className="l2" href="/solutions">
+          <a className="l2" href="/">
             Use cases
           </a>
 
-          <a className="l2" href="/solutions/imply-and-druid-with-hadoop">
+          <a className="l2" href="/">
             Hadoop analytics
           </a>
         </div>
       </div>
 
       <div className="dropdown-container resources ">
-        <a className="l1 dropdown" href="https://imply.io/resources">
+        <a className="l1 dropdown" href="/">
           Resources
         </a>
 
         <div className="header-dropdown">
-          <a className="l2" href="https://docs.imply.io">
+          <a className="l2" href="/">
             Docs
           </a>
 
-          <a className="l2" href="https://support.imply.io">
+          <a className="l2" href="/">
             Help center
           </a>
 
-          <a className="l2" href="/videos">
+          <a className="l2" href="/">
             Videos
           </a>
 
-          <a className="l2" href="/white-papers">
+          <a className="l2" href="/">
             White Papers
           </a>
 
-          <a className="l2" href="/druid-university">
+          <a className="l2" href="/">
             Druid University
           </a>
 
-          <a className="l2" href="/druid/cheat-sheet">
+          <a className="l2" href="/">
             Druid cheat sheet
           </a>
 
-          <a className="l2" href="https://imply.io/virtual-druid-summit">
+          <a className="l2" href="/">
             Virtual Druid Summit
           </a>
         </div>
       </div>
 
       <div className="dropdown-container company ">
-        <a className="l1 dropdown" href="/about">
+        <a className="l1 dropdown" href="/">
           Company
         </a>
 
         <div className="header-dropdown">
-          <a className="l2" href="/about">
+          <a className="l2" href="/">
             About us
           </a>
 
-          <a className="l2" href="/leadership-and-board">
+          <a className="l2" href="/">
             Leadership &amp; Board
           </a>
 
-          <a className="l2" href="/careers">
+          <a className="l2" href="/">
             Careers
           </a>
 
-          <a className="l2" href="/press-releases">
+          <a className="l2" href="/">
             Press Releases
           </a>
 
-          <a className="l2" href="/news">
+          <a className="l2" href="/">
             News &amp; events
           </a>
 
-          <a className="l2" href="/newsletter">
+          <a className="l2" href="/">
             Newsletter
           </a>
 
-          <a className="l2" href="https://druidsummit.org">
+          <a className="l2" href="/">
             Druid Summit 2020
           </a>
 
-          <a className="l2" href="/partners">
+          <a className="l2" href="/">
             Partners
           </a>
         </div>
       </div>
 
       <div className="dropdown-container blog ">
-        <a className="l1 dropdown" href="/blog">
+        <a className="l1 dropdown" href="/">
           Blog
         </a>
       </div>
 
       <div className="dropdown-container contact ">
-        <a className="l1 dropdown" href="/contact">
+        <a className="l1 dropdown" href="/">
           Contact
         </a>
       </div>
 
       <div className="dropdown-container get-started ">
-        <a className="l1 dropdown" href="/get-started">
+        <a className="l1 dropdown" href="/">
           Get started
         </a>
       </div>
 
-      <a className="l1 search " href="/search">
+      <a className="l1 search " href="/">
         Search
       </a>
     </div>

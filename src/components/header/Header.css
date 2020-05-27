@@ -66,6 +66,64 @@ nav {
   padding: 0 10px;
 }
 
+.right li:hover .header-dropdown {
+  display: block;
+}
+
+.right li .header-dropdown {
+  display: none;
+  z-index: 100;
+  position: absolute;
+  top: 54px;
+  left: 0;
+  width: 200px;
+  background: white;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.18);
+  overflow: visible;
+}
+
+.right li .header-dropdown::before {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  right: 0;
+  left: 0;
+  height: 8px;
+  background: none;
+  z-index: 50;
+}
+
+.contact-link:hover {
+  background: rgba(0, 138, 220, 0.1);
+  border-color: #007dc8;
+}
+
+.get-started-link:hover {
+  background: #006aa9;
+}
+
+a.l2 {
+  font-weight: bold;
+  cursor: pointer;
+  color: #008adc;
+  text-decoration: none;
+  text-align: left;
+}
+
+.l1:hover,
+a.l2:hover {
+  background: rgba(0, 138, 220, 0.1);
+}
+
+.header-dropdown .l2 {
+  display: block;
+  font-size: 15px;
+  width: 100%;
+  height: 46px;
+  line-height: 46px;
+  padding: 0 14px;
+}
+
 .link {
   color: #008adc;
   text-decoration: none;
