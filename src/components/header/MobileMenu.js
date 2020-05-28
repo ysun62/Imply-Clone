@@ -1,4 +1,9 @@
 import React from "react";
+import PropTypes from "prop-types";
+
+MobileMenu.propTypes = {
+  showCloseBtn: PropTypes.bool,
+};
 
 export default function MobileMenu(props) {
   return (

@@ -216,17 +216,18 @@ a.l2:hover {
   text-decoration: none;
 }
 
+.mobile-menu .l1:hover {
+  background: rgba(0, 138, 220, 0.2);
+}
+
 .mobile-menu .header-dropdown {
   border-radius: 0 0 2px 2px;
-  line-height: 34px;
   background: rgba(0, 138, 220, 0.1);
   padding-bottom: 6px;
 }
 
 .mobile-menu .l2 {
-  display: block;
   padding-left: 36px;
-  line-height: 34px;
   font-size: 15px;
   font-weight: bold;
   color: #008adc;
